@@ -1,5 +1,9 @@
 # gowasm-example
 
+```sh
+go get github.com/zyfdegh/gowasm-example
+```
+
 # Build wasm
 
 The test.wasm was built by `main.go.1` with
@@ -16,9 +20,9 @@ cp $(go env GOROOT)/misc/wasm/wasm_exec.{html,js} .
 # Build file server
 
 ```sh
-go get github.com/zyfdegh/gowasm-example
 
 cd $GOPATH/src/github.com/zyfdegh/gowasm-example
+go build
 ```
 
 # Run
